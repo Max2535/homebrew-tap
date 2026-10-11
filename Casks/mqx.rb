@@ -4,21 +4,21 @@ cask "mqx" do
 
   on_macos do
     on_arm do
-      sha256 "255089ab19af3c50693770a8aa50be5162526eda537864ccb9acb1c8a739fd24"
+      sha256 "006ba531b86b315bd0cf65f1f14945da526ad855b6d57da7aa6212bbb697e2eb"
       url "https://github.com/Max2535/mqx/releases/download/v#{version}/mqx_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9dbace67b158a4dbe7f9e939429c64f63fa6da4314e8f09647b8124acd9e9363"
+      sha256 "f0abbc670654126b65a0d6ad44149f45eb0a8a128d5f9c45dbd3f888a240bf48"
       url "https://github.com/Max2535/mqx/releases/download/v#{version}/mqx_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "daebf1fca943f0dfe421255868392e004a9fbb3c96737979c967131f3ff8d137"
+      sha256 "5ea1930e63b4966f4c31fb2f0a90446b006616dfac1ea77cd1a05ac480558016"
       url "https://github.com/Max2535/mqx/releases/download/v#{version}/mqx_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "bf9b34314193b14888dc2e548f9e0763d0c1910a777efe15d351207476132317"
+      sha256 "9a2457c7ba49de9c3ba08ae63d23ea3d92533bb98758c539a2be4c47ae290bea"
       url "https://github.com/Max2535/mqx/releases/download/v#{version}/mqx_#{version}_linux_amd64.tar.gz"
     end
   end
